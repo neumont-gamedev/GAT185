@@ -62,14 +62,14 @@ public class CharacterPlayer : MonoBehaviour
         animator.SetFloat("airTime", airTime);
     }
 
-    private void OnGUI()
-    {
-        Vector2 screen = Camera.main.WorldToScreenPoint(transform.position);
+    //private void OnGUI()
+    //{
+    //    Vector2 screen = Camera.main.WorldToScreenPoint(transform.position);
 
-        GUI.color = Color.black;
-        GUI.Label(new Rect(screen.x, Screen.height - screen.y, 300, 20), controller.velocity.ToString());
-        GUI.Label(new Rect(screen.x, Screen.height - screen.y - 20, 300, 20), controller.isGrounded.ToString());
-    }
+    //    GUI.color = Color.black;
+    //    GUI.Label(new Rect(screen.x, Screen.height - screen.y, 300, 20), controller.velocity.ToString());
+    //    GUI.Label(new Rect(screen.x, Screen.height - screen.y - 20, 300, 20), controller.isGrounded.ToString());
+    //}
 
     public void LeftFootSpawn(GameObject go)
 	{
