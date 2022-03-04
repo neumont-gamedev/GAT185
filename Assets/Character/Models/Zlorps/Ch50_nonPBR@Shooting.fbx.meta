@@ -46,7 +46,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -63,6 +63,13 @@ ModelImporter:
         functionName: PlayClip
         data: GunActivate
         objectReferenceParameter: {fileID: 7288613870129347106, guid: deaefba9d3bf1ad498c8b95572386a27, type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.035812665
+        functionName: StartItem
+        data: 
+        objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
