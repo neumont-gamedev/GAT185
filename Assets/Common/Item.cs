@@ -4,6 +4,15 @@ using UnityEngine;
 
 public abstract class Item : MonoBehaviour
 {
+    public enum Type
+	{
+        AXE,
+        GUN,
+        GRENADE,
+        KEY
+	}
+
+    public Type type;
     public Animator animator;
     public GameObject visual;
     public string input;
