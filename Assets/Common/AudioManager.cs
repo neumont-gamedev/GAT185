@@ -60,9 +60,9 @@ public class AudioManager : Singleton<AudioManager>
 
     void Start()
     {
-        masterVolume = PlayerPrefs.GetFloat(MASTER_VOLUME, 0);
-        sfxVolume = PlayerPrefs.GetFloat(SFX_VOLUME, 0);
-        musicVolume = PlayerPrefs.GetFloat(MUSIC_VOLUME, 0);
+        masterVolume = PlayerPrefs.GetFloat(MASTER_VOLUME, 1);
+        sfxVolume = PlayerPrefs.GetFloat(SFX_VOLUME, 1);
+        musicVolume = PlayerPrefs.GetFloat(MUSIC_VOLUME, 1);
     }
 
     public void PlaySFX(AudioClip clip)
